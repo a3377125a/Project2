@@ -1,0 +1,138 @@
+
+
+
+#big-image img{
+    margin-top: -3px;  /*消除图片和导航栏的间距*/
+}
+
+.line1{
+    width: 100%;
+    margin-top: 3.5%;
+}
+
+.line2 .col1,.line2 .col2,.line2 .col3{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.col1,.col2,.col3{
+    float: left;
+    height: 10%;
+    margin-left: 6%;
+}
+
+.col1,.col2,.col3{
+    background-color: rgba(158, 158, 158, 0.44);
+    box-sizing: border-box;
+    width: 25%;
+    border-radius: 25px;
+}
+
+.col1 .pic1,.col2 .pic1,.col3 .pic1{
+    overflow: hidden;
+    display: block;
+    width: 90%;
+    height: 55vh;
+    margin-left: 5%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 25px;
+}
+
+.col1 .pic1 img,.col2 .pic1 img,.col3 .pic1 img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 25px;
+}
+
+.col1 div,.col2 div,.col3 div{
+    margin-left: 5%;
+}
+
+.col1 h1,.col2 h1,.col3 h1{
+    font-weight: bold;
+    font-size: 1vmax;
+    height: 5vh;
+}
+.col1 span,.col2 span,.col3 span{
+    display: block;
+    font-size: 1vmax;
+    height: 4vh;
+
+
+    width: 92%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: 2vh;
+    margin-top: -0.7vh;
+}
+
+
+/*.text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+ */
+
+
+
+
+
+
+footer{
+    clear: both ;
+    color: white;
+    background-color: black;
+    position: relative;
+    height: 35vh;
+}
+
+#copyright{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 4.5vh;
+}
+
+.foot-col1,.foot-col2,.foot-col3{
+    float: left;
+    width: 23%;
+    margin-top: 3vh;
+    text-align: center;
+}
+.foot-col1 a,.foot-col2 a{
+    color: white;
+}
+.foot-col3 img{
+
+    margin: -1vh 3.5vh 3.5vh;
+    width: 2.5vmax;
+}
+#QR-code{
+    float: right;
+    margin-top: 2.5vh;
+    margin-right: 4vw;
+    width: 13vmax;
+}
+#fixed-icon{
+    position: fixed;
+    right: 30px;
+    bottom: 300px;
+}
+#fixed-icon img{
+    display: block;
+}
+#first{
+    margin-left: -2px;
+    margin-top: 10px;
+}
+
+
+
+
+

@@ -1,0 +1,154 @@
+
+
+.sp_page_num{
+    color: #bc161b;
+    text-decoration:none
+
+}
+
+
+#photo{
+    border: inset 2px #7e8c8d;
+    margin-top: 1.5vw;
+    margin-left: 2.5vw;
+    width: 95vw;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#photo .first{
+    width: 100%;
+    background-color: rgba(111, 127, 128, 0.17);
+    text-align: left;
+    font-weight: bold;
+    padding-left: 1.5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    border-bottom: solid 1px rgba(73, 51, 57, 0.6);
+}
+
+#photo .pics{
+    width: 100%;
+}
+
+#photo .tip{
+    width: 100%;
+    height: 75vh;
+    padding-top: 40vh;
+}
+#photo .tip h1{
+    text-align: center;
+}
+
+#photo .pics .blocks{
+    width: 100%;
+    border-top: solid 1px rgba(73, 51, 57, 0.6);
+    height: 20vw;
+}
+#photo .pics .blocks .pic-div{
+    float: left;
+    overflow: hidden;
+    margin-top: 1vw;
+    margin-left: 1.5vw;
+    width: 17vw;
+    height: 17vw;
+}
+#photo .pics .blocks .pic-div img{
+    object-fit: cover;
+}
+#photo .pics .blocks .right{
+    float: right;
+    width: 62%;
+    height: 15vw;
+    margin-top: -16vw;
+    margin-right: 13vw;
+}
+#photo .pics .blocks .right .text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    border-bottom: none;
+}
+#photo .pics .blocks .right .text h1{
+    font-weight: bold;
+    font-size: 2vw;
+    margin-bottom: 1.7vw;
+}
+#photo .pics .blocks .right .text article{
+    line-height: 1.7vw;
+}
+#photo .pics .blocks .right .buttons{
+    width: 100%;
+    margin-top: 1.7vw;
+}
+
+
+.buttons .modify{
+    background-color: rgba(111, 127, 128, 0.17);
+    color: purple;
+    min-width: 50px;
+    padding: 1vw 1.8vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vmax;
+    width: 3vw;
+    height: 1.1vw;
+    border: solid 2px rgba(101, 103, 49, 0.13);
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin-left: 1vw;
+}
+.buttons .modify:hover{
+    background-color: purple;
+    color: white;
+}
+.buttons .delete{
+    background-color: rgba(111, 127, 128, 0.17);
+    color: red;
+    min-width: 50px;
+    padding: 1vw 1.8vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vmax;
+    width: 3vw;
+    height: 1.1vw;
+    border: solid 2px rgba(101, 103, 49, 0.13);
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.buttons .delete:hover{
+    background-color: red;
+    color: white;
+}
+
+
+#photo .pics .last{
+    border: none;
+}
+
+
+#photo .pics .foot{
+    width: 10%;
+    margin: 4vh auto;
+}
+
+#block{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+#footer{
+    position: absolute;
+    bottom: 10px;
+    left: 2.5vw;
+    font-weight: bold;
+}

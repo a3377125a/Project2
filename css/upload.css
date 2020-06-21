@@ -1,0 +1,100 @@
+body{
+    font-family:"Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 1vw;
+}
+
+
+#upload{
+    border: inset 2px #7e8c8d;
+    margin-top: 3vh;
+    margin-left: 2.5vw;
+    width: 95vw;
+    overflow: hidden;
+    border-radius: 5px;
+}
+#upload .first{
+    width: 100%;
+    background-color: rgba(111, 127, 128, 0.17);
+    text-align: left;
+    font-weight: bold;
+    padding-left: 1.5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    border-bottom: solid 1px rgba(73, 51, 57, 0.6);
+}
+
+.button img{
+    display: block;
+    margin: 3vh auto auto;
+}
+.button input{
+    display: block;
+    margin: 5vh auto auto;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+
+#upload .main .text{
+    width: 100%;
+    margin-top: 5vh;
+}
+#upload .main .text div{
+    margin-left: 3vw ;
+    margin-bottom: 3vh;
+    font-weight: bold;
+}
+#upload .main .text input,#upload .main .text textarea{
+    width: 85vw;
+    height: 2.5vh;
+    border-radius: 5px;
+    border: solid 1px black;
+    margin-top: 1.5vh;
+}
+#upload .main .text textarea{
+    height:  10vh;
+}
+#upload .main .text span{
+    font-weight: bold;
+}
+
+select{
+    width: 12vw;
+    height: 4.55vh;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 1.5vh;
+}
+
+
+#upload .main button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    min-width: 60px;                    /*设定最小宽度，保证按钮文字能正常显示。*/
+    margin-bottom: 3vh;
+    margin-left: 3vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius:5px ;
+    height: 4.5vh;
+    width: 5vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+#block{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+#footer{
+    position: absolute;
+    bottom: 10px;
+    left: 2.5vw;
+    font-weight: bold;
+}
+
+
