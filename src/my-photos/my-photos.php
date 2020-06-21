@@ -65,7 +65,7 @@ require "../navbar.php";
                 <div class="pic-div">
                     <?php
                     echo "<a href=\"../details/details.php?id=" . "$imgID" . "\">".
-                        "<img src=\"http://localhost:1234/Project2/travel-images/large/"."$path"."\" ></a>";
+                        "<img src=\"../../travel-images/large/"."$path"."\" ></a>";
                     ?>
                 </div>
                 <div class="right">

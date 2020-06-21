@@ -20,7 +20,6 @@ $select_country = get10Country();
 if ($_GET["imgID"]) {
     $conn = new mysqli(DBHOST, DBUSER, DBPASS, DBNAME);
     $imgID_now = $_GET["imgID"];
-
     $sql1 = "SELECT Title,Description,PATH FROM travelimage WHERE ImageID='$imgID_now'";
     $result1 = $conn->query($sql1);
     $row1 = $result1->fetch_all();
@@ -29,9 +28,6 @@ if ($_GET["imgID"]) {
     $path_now = $row1[0][2];
 
 }
-
-
-
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $title = addslashes($_POST["title-text"]);
     $description = addslashes($_POST["description-text"]);
@@ -93,9 +89,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 }
                 $_FILES = array();
             }
-
-
-
             $sql4 = "UPDATE travelimage SET Title='$title',Description='$description',CityCode='$cityID',
                     Country_RegionCodeISO='$countryID',Content='$content' WHERE ImageID='$imgID'";
             $result4 = $conn->query($sql4);
@@ -161,7 +154,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 echo "<script>alert(\"文件大小或格式不合法！\\n只允许上传20mb以内的图片文件。\");</script>";
             }
         }
-
         $_POST = array();
     }
 }
